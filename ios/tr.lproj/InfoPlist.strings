@@ -1,0 +1,8 @@
+/* 
+  InfoPlist.strings
+  NoqNoqMobileTabletNative
+
+  Created by mobilekip on 13.08.2021.
+  Copyright © 2021 Facebook. All rights reserved.
+*/
+"NSCameraUsageDescription"="Ev sahibinin ziyaretçiyi kolayca tanıması için fotoğrafını çekiyoruz. Kameraya erişim izni vermek için \"Tamam\" düğmesine dokunun";

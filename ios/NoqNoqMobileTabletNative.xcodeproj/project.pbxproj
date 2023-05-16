@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0989730C8F504950B945372C /* Nexa-Black-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 53A82DA12E43478BA60AC9D4 /* Nexa-Black-Italic.otf */; };
+		0F1A7B316A4A48BA88F75FBC /* Nexa-Bold-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 798997790C2441FB97D371EA /* Nexa-Bold-Italic.otf */; };
+		10AA81A423228508009159A0 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB61A68108700A75B9A /* Info.plist */; };
+		10AA81D52322A098009159A0 /* NexaLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 10AA81C52322A096009159A0 /* NexaLight.otf */; };
+		10AA81D62322A098009159A0 /* Nexa-Bold-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 10AA81C62322A096009159A0 /* Nexa-Bold-Italic.otf */; };
+		10AA81D72322A098009159A0 /* NexaThin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 10AA81C72322A096009159A0 /* NexaThin.otf */; };
+		10AA81D82322A098009159A0 /* NexaBook.otf in Resources */ = {isa = PBXBuildFile; fileRef = 10AA81C82322A096009159A0 /* NexaBook.otf */; };
+		10AA81D92322A098009159A0 /* Nexa-Black-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 10AA81C92322A096009159A0 /* Nexa-Black-Italic.otf */; };
+		10AA81DA2322A098009159A0 /* Nexa-Book-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 10AA81CA2322A096009159A0 /* Nexa-Book-Italic.otf */; };
+		10AA81DB2322A098009159A0 /* Nexa-Thin-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 10AA81CB2322A097009159A0 /* Nexa-Thin-Italic.otf */; };
+		10AA81DC2322A098009159A0 /* Nexa-Regular-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 10AA81CC2322A097009159A0 /* Nexa-Regular-Italic.otf */; };
+		10AA81DD2322A098009159A0 /* Nexa-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 10AA81CD2322A097009159A0 /* Nexa-Black.otf */; };
+		10AA81DE2322A098009159A0 /* NexaRegular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 10AA81CE2322A097009159A0 /* NexaRegular.otf */; };
+		10AA81DF2322A098009159A0 /* NexaHeavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 10AA81CF2322A097009159A0 /* NexaHeavy.otf */; };
+		10AA81E02322A098009159A0 /* Nexa-XBold-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 10AA81D02322A097009159A0 /* Nexa-XBold-Italic.otf */; };
+		10AA81E12322A098009159A0 /* Nexa-Light-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 10AA81D12322A097009159A0 /* Nexa-Light-Italic.otf */; };
+		10AA81E22322A098009159A0 /* NexaBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 10AA81D22322A097009159A0 /* NexaBold.otf */; };
+		10AA81E32322A098009159A0 /* Nexa-Heavy-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 10AA81D32322A097009159A0 /* Nexa-Heavy-Italic.otf */; };
+		10AA81E42322A098009159A0 /* Nexa-XBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 10AA81D42322A098009159A0 /* Nexa-XBold.otf */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		30C5B92C2C844A2D90D3AA07 /* Nexa-Light-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 179924CCCC0E4516BD49E265 /* Nexa-Light-Italic.otf */; };
+		40FC218F32650E8347150631 /* libPods-NoqNoqMobileTabletNative.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1D6D4A4C2B2526063890847 /* libPods-NoqNoqMobileTabletNative.a */; };
+		41D9EC626BA34EF68149FB6A /* Nexa-Thin-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 004C29596C7341598FB99CFF /* Nexa-Thin-Italic.otf */; };
+		4B09C8EC326B44C1A05E2069 /* Nexa-Book-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5552B52D57E647C291B05565 /* Nexa-Book-Italic.otf */; };
+		5CCFBE4B21A346A4ACC9D560 /* Nexa-Regular-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B4E7802382EC4AADAC36673F /* Nexa-Regular-Italic.otf */; };
+		5E21BCA522154107A2CCF8C6 /* Nexa-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7F60D85EC83147A08C3A7D4D /* Nexa-Heavy.otf */; };
+		63AFF213E5144A7E886BD7E9 /* Nexa-Heavy-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 078458A2403C4FBDB53DC91A /* Nexa-Heavy-Italic.otf */; };
+		6F609163FC7C4A81A736447E /* Nexa-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0B1EE0121C88423D84C2D0C3 /* Nexa-Thin.otf */; };
+		8B532EA557444CAF8AC0FB1F /* Nexa-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 48C1EDAAD7D74313A118823F /* Nexa-Book.otf */; };
+		94ACA0CDD8B74AF7B271CBC5 /* Nexa-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 385AEC06BC11425CA2231D92 /* Nexa-Light.otf */; };
+		AE87EB75B8174D57A89942E9 /* Nexa-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = CCEFBB2C493B400AA9B7F251 /* Nexa-Bold.otf */; };
+		B888363126C663BB0096A9D4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B888363326C663BB0096A9D4 /* InfoPlist.strings */; };
+		D4577BF2434C46F8909BC3A0 /* Nexa-XBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5B428AE3AC144A52BF1D4B20 /* Nexa-XBold.otf */; };
+		D59696B7A761420D91195600 /* Nexa-XBold-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 83F16AFE28624EF0B1C8C356 /* Nexa-XBold-Italic.otf */; };
+		DC39CD89027145F391E928A4 /* Nexa-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9ABABAA77B32424ABC720892 /* Nexa-Black.otf */; };
+		F890E8E5ADE7421693802E36 /* Nexa-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = AD64D484C75642E4ABDB8C18 /* Nexa-Regular.otf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		004C29596C7341598FB99CFF /* Nexa-Thin-Italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nexa-Thin-Italic.otf"; path = "../src/assets/fonts/Nexa-Thin-Italic.otf"; sourceTree = "<group>"; };
+		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* NoqNoqMobileTabletNativeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoqNoqMobileTabletNativeTests.m; sourceTree = "<group>"; };
+		01EA65049E83FD0A2FD0DFCF /* Pods-NoqNoqMobileTabletNative-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoqNoqMobileTabletNative-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-NoqNoqMobileTabletNative-tvOSTests/Pods-NoqNoqMobileTabletNative-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		078458A2403C4FBDB53DC91A /* Nexa-Heavy-Italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nexa-Heavy-Italic.otf"; path = "../src/assets/fonts/Nexa-Heavy-Italic.otf"; sourceTree = "<group>"; };
+		0AD77395612A315958D5094C /* libPods-NoqNoqMobileTabletNative-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NoqNoqMobileTabletNative-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B1EE0121C88423D84C2D0C3 /* Nexa-Thin.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nexa-Thin.otf"; path = "../src/assets/fonts/Nexa-Thin.otf"; sourceTree = "<group>"; };
+		10AA81C52322A096009159A0 /* NexaLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = NexaLight.otf; path = ../assets/fonts/NexaLight.otf; sourceTree = "<group>"; };
+		10AA81C62322A096009159A0 /* Nexa-Bold-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Nexa-Bold-Italic.otf"; path = "../assets/fonts/Nexa-Bold-Italic.otf"; sourceTree = "<group>"; };
+		10AA81C72322A096009159A0 /* NexaThin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = NexaThin.otf; path = ../assets/fonts/NexaThin.otf; sourceTree = "<group>"; };
+		10AA81C82322A096009159A0 /* NexaBook.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = NexaBook.otf; path = ../assets/fonts/NexaBook.otf; sourceTree = "<group>"; };
+		10AA81C92322A096009159A0 /* Nexa-Black-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Nexa-Black-Italic.otf"; path = "../assets/fonts/Nexa-Black-Italic.otf"; sourceTree = "<group>"; };
+		10AA81CA2322A096009159A0 /* Nexa-Book-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Nexa-Book-Italic.otf"; path = "../assets/fonts/Nexa-Book-Italic.otf"; sourceTree = "<group>"; };
+		10AA81CB2322A097009159A0 /* Nexa-Thin-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Nexa-Thin-Italic.otf"; path = "../assets/fonts/Nexa-Thin-Italic.otf"; sourceTree = "<group>"; };
+		10AA81CC2322A097009159A0 /* Nexa-Regular-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Nexa-Regular-Italic.otf"; path = "../assets/fonts/Nexa-Regular-Italic.otf"; sourceTree = "<group>"; };
+		10AA81CD2322A097009159A0 /* Nexa-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Nexa-Black.otf"; path = "../assets/fonts/Nexa-Black.otf"; sourceTree = "<group>"; };
+		10AA81CE2322A097009159A0 /* NexaRegular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = NexaRegular.otf; path = ../assets/fonts/NexaRegular.otf; sourceTree = "<group>"; };
+		10AA81CF2322A097009159A0 /* NexaHeavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = NexaHeavy.otf; path = ../assets/fonts/NexaHeavy.otf; sourceTree = "<group>"; };
+		10AA81D02322A097009159A0 /* Nexa-XBold-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Nexa-XBold-Italic.otf"; path = "../assets/fonts/Nexa-XBold-Italic.otf"; sourceTree = "<group>"; };
+		10AA81D12322A097009159A0 /* Nexa-Light-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Nexa-Light-Italic.otf"; path = "../assets/fonts/Nexa-Light-Italic.otf"; sourceTree = "<group>"; };
+		10AA81D22322A097009159A0 /* NexaBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = NexaBold.otf; path = ../assets/fonts/NexaBold.otf; sourceTree = "<group>"; };
+		10AA81D32322A097009159A0 /* Nexa-Heavy-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Nexa-Heavy-Italic.otf"; path = "../assets/fonts/Nexa-Heavy-Italic.otf"; sourceTree = "<group>"; };
+		10AA81D42322A098009159A0 /* Nexa-XBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Nexa-XBold.otf"; path = "../assets/fonts/Nexa-XBold.otf"; sourceTree = "<group>"; };
+		118746BC4F8C1494CFE47090 /* Pods-NoqNoqMobileTabletNativeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoqNoqMobileTabletNativeTests.debug.xcconfig"; path = "Target Support Files/Pods-NoqNoqMobileTabletNativeTests/Pods-NoqNoqMobileTabletNativeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* NoqNoqMobileTabletNative.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoqNoqMobileTabletNative.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = NoqNoqMobileTabletNative/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = NoqNoqMobileTabletNative/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = NoqNoqMobileTabletNative/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = NoqNoqMobileTabletNative/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = NoqNoqMobileTabletNative/main.m; sourceTree = "<group>"; };
+		179924CCCC0E4516BD49E265 /* Nexa-Light-Italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nexa-Light-Italic.otf"; path = "../src/assets/fonts/Nexa-Light-Italic.otf"; sourceTree = "<group>"; };
+		30FD8D37AD81FA470157F794 /* Pods-NoqNoqMobileTabletNative.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoqNoqMobileTabletNative.release.xcconfig"; path = "Target Support Files/Pods-NoqNoqMobileTabletNative/Pods-NoqNoqMobileTabletNative.release.xcconfig"; sourceTree = "<group>"; };
+		385AEC06BC11425CA2231D92 /* Nexa-Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nexa-Light.otf"; path = "../src/assets/fonts/Nexa-Light.otf"; sourceTree = "<group>"; };
+		48C1EDAAD7D74313A118823F /* Nexa-Book.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nexa-Book.otf"; path = "../src/assets/fonts/Nexa-Book.otf"; sourceTree = "<group>"; };
+		53A82DA12E43478BA60AC9D4 /* Nexa-Black-Italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nexa-Black-Italic.otf"; path = "../src/assets/fonts/Nexa-Black-Italic.otf"; sourceTree = "<group>"; };
+		5552B52D57E647C291B05565 /* Nexa-Book-Italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nexa-Book-Italic.otf"; path = "../src/assets/fonts/Nexa-Book-Italic.otf"; sourceTree = "<group>"; };
+		5B428AE3AC144A52BF1D4B20 /* Nexa-XBold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nexa-XBold.otf"; path = "../src/assets/fonts/Nexa-XBold.otf"; sourceTree = "<group>"; };
+		798997790C2441FB97D371EA /* Nexa-Bold-Italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nexa-Bold-Italic.otf"; path = "../src/assets/fonts/Nexa-Bold-Italic.otf"; sourceTree = "<group>"; };
+		7F60D85EC83147A08C3A7D4D /* Nexa-Heavy.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nexa-Heavy.otf"; path = "../src/assets/fonts/Nexa-Heavy.otf"; sourceTree = "<group>"; };
+		83F16AFE28624EF0B1C8C356 /* Nexa-XBold-Italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nexa-XBold-Italic.otf"; path = "../src/assets/fonts/Nexa-XBold-Italic.otf"; sourceTree = "<group>"; };
+		9ABABAA77B32424ABC720892 /* Nexa-Black.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nexa-Black.otf"; path = "../src/assets/fonts/Nexa-Black.otf"; sourceTree = "<group>"; };
+		A1D3853D6C65F491FD7AD576 /* libPods-NoqNoqMobileTabletNative-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NoqNoqMobileTabletNative-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD64D484C75642E4ABDB8C18 /* Nexa-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nexa-Regular.otf"; path = "../src/assets/fonts/Nexa-Regular.otf"; sourceTree = "<group>"; };
+		AFB6EC8177A5951D26BAB5CB /* Pods-NoqNoqMobileTabletNative-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoqNoqMobileTabletNative-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-NoqNoqMobileTabletNative-tvOSTests/Pods-NoqNoqMobileTabletNative-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B3BCAFA0E6904D4B8C7D4655 /* Pods-NoqNoqMobileTabletNative-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoqNoqMobileTabletNative-tvOS.release.xcconfig"; path = "Target Support Files/Pods-NoqNoqMobileTabletNative-tvOS/Pods-NoqNoqMobileTabletNative-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		B4E7802382EC4AADAC36673F /* Nexa-Regular-Italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nexa-Regular-Italic.otf"; path = "../src/assets/fonts/Nexa-Regular-Italic.otf"; sourceTree = "<group>"; };
+		B888363226C663BB0096A9D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B888363426C663D00096A9D4 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		B888363526C663D40096A9D4 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B9841C82E4845ECB0304F2EC /* Pods-NoqNoqMobileTabletNative.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoqNoqMobileTabletNative.debug.xcconfig"; path = "Target Support Files/Pods-NoqNoqMobileTabletNative/Pods-NoqNoqMobileTabletNative.debug.xcconfig"; sourceTree = "<group>"; };
+		C6D38A7E270B2AE500EF0C2B /* DauphinPlain.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = DauphinPlain.ttf; path = "../../../../İndirilenler/OnlineWebFonts_COM_f4e20df3b310cf3a9c12349c1d844e01/Dauphin V1/DauphinPlain.ttf"; sourceTree = "<group>"; };
+		CCEFBB2C493B400AA9B7F251 /* Nexa-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nexa-Bold.otf"; path = "../src/assets/fonts/Nexa-Bold.otf"; sourceTree = "<group>"; };
+		CEEDFD95E856D537C1929DC7 /* Pods-NoqNoqMobileTabletNativeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoqNoqMobileTabletNativeTests.release.xcconfig"; path = "Target Support Files/Pods-NoqNoqMobileTabletNativeTests/Pods-NoqNoqMobileTabletNativeTests.release.xcconfig"; sourceTree = "<group>"; };
+		D1D6D4A4C2B2526063890847 /* libPods-NoqNoqMobileTabletNative.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NoqNoqMobileTabletNative.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2CF7153A9EE055B259FA01C /* Pods-NoqNoqMobileTabletNative-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoqNoqMobileTabletNative-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-NoqNoqMobileTabletNative-tvOS/Pods-NoqNoqMobileTabletNative-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		E52511053074F69F1CF4C905 /* libPods-NoqNoqMobileTabletNativeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NoqNoqMobileTabletNativeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40FC218F32650E8347150631 /* libPods-NoqNoqMobileTabletNative.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* NoqNoqMobileTabletNativeTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* NoqNoqMobileTabletNativeTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = NoqNoqMobileTabletNativeTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* NoqNoqMobileTabletNative */ = {
+			isa = PBXGroup;
+			children = (
+				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = NoqNoqMobileTabletNative;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
+				D1D6D4A4C2B2526063890847 /* libPods-NoqNoqMobileTabletNative.a */,
+				0AD77395612A315958D5094C /* libPods-NoqNoqMobileTabletNative-tvOS.a */,
+				A1D3853D6C65F491FD7AD576 /* libPods-NoqNoqMobileTabletNative-tvOSTests.a */,
+				E52511053074F69F1CF4C905 /* libPods-NoqNoqMobileTabletNativeTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5601E981B6C24C989388ECFF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				53A82DA12E43478BA60AC9D4 /* Nexa-Black-Italic.otf */,
+				9ABABAA77B32424ABC720892 /* Nexa-Black.otf */,
+				C6D38A7E270B2AE500EF0C2B /* DauphinPlain.ttf */,
+				798997790C2441FB97D371EA /* Nexa-Bold-Italic.otf */,
+				CCEFBB2C493B400AA9B7F251 /* Nexa-Bold.otf */,
+				5552B52D57E647C291B05565 /* Nexa-Book-Italic.otf */,
+				48C1EDAAD7D74313A118823F /* Nexa-Book.otf */,
+				078458A2403C4FBDB53DC91A /* Nexa-Heavy-Italic.otf */,
+				7F60D85EC83147A08C3A7D4D /* Nexa-Heavy.otf */,
+				179924CCCC0E4516BD49E265 /* Nexa-Light-Italic.otf */,
+				385AEC06BC11425CA2231D92 /* Nexa-Light.otf */,
+				B4E7802382EC4AADAC36673F /* Nexa-Regular-Italic.otf */,
+				AD64D484C75642E4ABDB8C18 /* Nexa-Regular.otf */,
+				004C29596C7341598FB99CFF /* Nexa-Thin-Italic.otf */,
+				0B1EE0121C88423D84C2D0C3 /* Nexa-Thin.otf */,
+				83F16AFE28624EF0B1C8C356 /* Nexa-XBold-Italic.otf */,
+				5B428AE3AC144A52BF1D4B20 /* Nexa-XBold.otf */,
+				B888363326C663BB0096A9D4 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				10AA81C92322A096009159A0 /* Nexa-Black-Italic.otf */,
+				10AA81CD2322A097009159A0 /* Nexa-Black.otf */,
+				10AA81C62322A096009159A0 /* Nexa-Bold-Italic.otf */,
+				10AA81CA2322A096009159A0 /* Nexa-Book-Italic.otf */,
+				10AA81D32322A097009159A0 /* Nexa-Heavy-Italic.otf */,
+				10AA81D12322A097009159A0 /* Nexa-Light-Italic.otf */,
+				10AA81CC2322A097009159A0 /* Nexa-Regular-Italic.otf */,
+				10AA81CB2322A097009159A0 /* Nexa-Thin-Italic.otf */,
+				10AA81D02322A097009159A0 /* Nexa-XBold-Italic.otf */,
+				10AA81D42322A098009159A0 /* Nexa-XBold.otf */,
+				10AA81D22322A097009159A0 /* NexaBold.otf */,
+				10AA81C82322A096009159A0 /* NexaBook.otf */,
+				10AA81CF2322A097009159A0 /* NexaHeavy.otf */,
+				10AA81C52322A096009159A0 /* NexaLight.otf */,
+				10AA81CE2322A097009159A0 /* NexaRegular.otf */,
+				10AA81C72322A096009159A0 /* NexaThin.otf */,
+				13B07FAE1A68108700A75B9A /* NoqNoqMobileTabletNative */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* NoqNoqMobileTabletNativeTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				B1623F0DECE69F074974ADE6 /* Pods */,
+				5601E981B6C24C989388ECFF /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* NoqNoqMobileTabletNative.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1623F0DECE69F074974ADE6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B9841C82E4845ECB0304F2EC /* Pods-NoqNoqMobileTabletNative.debug.xcconfig */,
+				30FD8D37AD81FA470157F794 /* Pods-NoqNoqMobileTabletNative.release.xcconfig */,
+				D2CF7153A9EE055B259FA01C /* Pods-NoqNoqMobileTabletNative-tvOS.debug.xcconfig */,
+				B3BCAFA0E6904D4B8C7D4655 /* Pods-NoqNoqMobileTabletNative-tvOS.release.xcconfig */,
+				AFB6EC8177A5951D26BAB5CB /* Pods-NoqNoqMobileTabletNative-tvOSTests.debug.xcconfig */,
+				01EA65049E83FD0A2FD0DFCF /* Pods-NoqNoqMobileTabletNative-tvOSTests.release.xcconfig */,
+				118746BC4F8C1494CFE47090 /* Pods-NoqNoqMobileTabletNativeTests.debug.xcconfig */,
+				CEEDFD95E856D537C1929DC7 /* Pods-NoqNoqMobileTabletNativeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13B07F861A680F5B00A75B9A /* NoqNoqMobileTabletNative */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "NoqNoqMobileTabletNative" */;
+			buildPhases = (
+				111131CCDCA9E501F076CA28 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				4E5DB74C6871BAA9E7398181 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NoqNoqMobileTabletNative;
+			productName = NoqNoqMobileTabletNative;
+			productReference = 13B07F961A680F5B00A75B9A /* NoqNoqMobileTabletNative.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 940;
+				ORGANIZATIONNAME = Facebook;
+				TargetAttributes = {
+					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = 42VBDWP7P3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "NoqNoqMobileTabletNative" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+				tr,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* NoqNoqMobileTabletNative */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10AA81D52322A098009159A0 /* NexaLight.otf in Resources */,
+				10AA81D62322A098009159A0 /* Nexa-Bold-Italic.otf in Resources */,
+				10AA81D72322A098009159A0 /* NexaThin.otf in Resources */,
+				10AA81D82322A098009159A0 /* NexaBook.otf in Resources */,
+				10AA81D92322A098009159A0 /* Nexa-Black-Italic.otf in Resources */,
+				10AA81DA2322A098009159A0 /* Nexa-Book-Italic.otf in Resources */,
+				10AA81DB2322A098009159A0 /* Nexa-Thin-Italic.otf in Resources */,
+				10AA81DC2322A098009159A0 /* Nexa-Regular-Italic.otf in Resources */,
+				10AA81DD2322A098009159A0 /* Nexa-Black.otf in Resources */,
+				10AA81DE2322A098009159A0 /* NexaRegular.otf in Resources */,
+				10AA81DF2322A098009159A0 /* NexaHeavy.otf in Resources */,
+				10AA81E02322A098009159A0 /* Nexa-XBold-Italic.otf in Resources */,
+				10AA81E12322A098009159A0 /* Nexa-Light-Italic.otf in Resources */,
+				10AA81E22322A098009159A0 /* NexaBold.otf in Resources */,
+				10AA81E32322A098009159A0 /* Nexa-Heavy-Italic.otf in Resources */,
+				10AA81E42322A098009159A0 /* Nexa-XBold.otf in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				10AA81A423228508009159A0 /* Info.plist in Resources */,
+				0989730C8F504950B945372C /* Nexa-Black-Italic.otf in Resources */,
+				DC39CD89027145F391E928A4 /* Nexa-Black.otf in Resources */,
+				0F1A7B316A4A48BA88F75FBC /* Nexa-Bold-Italic.otf in Resources */,
+				AE87EB75B8174D57A89942E9 /* Nexa-Bold.otf in Resources */,
+				4B09C8EC326B44C1A05E2069 /* Nexa-Book-Italic.otf in Resources */,
+				8B532EA557444CAF8AC0FB1F /* Nexa-Book.otf in Resources */,
+				B888363126C663BB0096A9D4 /* InfoPlist.strings in Resources */,
+				63AFF213E5144A7E886BD7E9 /* Nexa-Heavy-Italic.otf in Resources */,
+				5E21BCA522154107A2CCF8C6 /* Nexa-Heavy.otf in Resources */,
+				30C5B92C2C844A2D90D3AA07 /* Nexa-Light-Italic.otf in Resources */,
+				94ACA0CDD8B74AF7B271CBC5 /* Nexa-Light.otf in Resources */,
+				5CCFBE4B21A346A4ACC9D560 /* Nexa-Regular-Italic.otf in Resources */,
+				F890E8E5ADE7421693802E36 /* Nexa-Regular.otf in Resources */,
+				41D9EC626BA34EF68149FB6A /* Nexa-Thin-Italic.otf in Resources */,
+				6F609163FC7C4A81A736447E /* Nexa-Thin.otf in Resources */,
+				D59696B7A761420D91195600 /* Nexa-XBold-Italic.otf in Resources */,
+				D4577BF2434C46F8909BC3A0 /* Nexa-XBold.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		111131CCDCA9E501F076CA28 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NoqNoqMobileTabletNative-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E5DB74C6871BAA9E7398181 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NoqNoqMobileTabletNative/Pods-NoqNoqMobileTabletNative-resources.sh",
+				"${PODS_ROOT}/YoutubePlayer-in-WKWebView/WKYTPlayerView/WKYTPlayerView.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/WKYTPlayerView.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NoqNoqMobileTabletNative/Pods-NoqNoqMobileTabletNative-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		13B07FB11A68108700A75B9A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13B07FB21A68108700A75B9A /* Base */,
+				B888363426C663D00096A9D4 /* tr */,
+			);
+			name = LaunchScreen.xib;
+			path = NoqNoqMobileTabletNative;
+			sourceTree = "<group>";
+		};
+		B888363326C663BB0096A9D4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B888363226C663BB0096A9D4 /* en */,
+				B888363526C663D40096A9D4 /* tr */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9841C82E4845ECB0304F2EC /* Pods-NoqNoqMobileTabletNative.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = 42VBDWP7P3;
+				INFOPLIST_FILE = NoqNoqMobileTabletNative/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.9.5;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.noqnoq.noqnoqtablet;
+				PRODUCT_NAME = NoqNoqMobileTabletNative;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 2;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30FD8D37AD81FA470157F794 /* Pods-NoqNoqMobileTabletNative.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = 42VBDWP7P3;
+				INFOPLIST_FILE = NoqNoqMobileTabletNative/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.9.5;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.noqnoq.noqnoqtablet;
+				PRODUCT_NAME = NoqNoqMobileTabletNative;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 2;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "NoqNoqMobileTabletNative" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "NoqNoqMobileTabletNative" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

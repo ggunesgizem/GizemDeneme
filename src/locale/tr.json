@@ -1,0 +1,19 @@
+{
+    "pages":{
+       "movie_container":{
+          "movies":"Sample Movies 2",
+          "message":"This page has hidden 'service data' find it!"
+       },
+       "movie_list":{
+          "first_page":"First Page"
+       }
+    },
+    "components":{
+        "list":{
+            "welcome_message":"List Component"
+        },
+        "button":{
+           "sample":"button"
+        }
+    }
+ }

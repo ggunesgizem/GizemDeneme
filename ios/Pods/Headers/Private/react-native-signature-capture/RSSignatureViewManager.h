@@ -1,0 +1,1 @@
+../../../../../lib/react-native-signature-capture/ios/RSSignatureViewManager.h

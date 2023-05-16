@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  NoqNoqMobileTabletNative
+
+  Created by mobilekip on 13.08.2021.
+  Copyright © 2021 Facebook. All rights reserved.
+*/
+"NSCameraUsageDescription"="We take a photo of you so that the host can easily recognize the visitor. Tap the \"OK\" button to grant access to the camera.";
+	

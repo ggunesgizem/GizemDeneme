@@ -1,0 +1,266 @@
+PODS:
+  - boost-for-react-native (1.63.0)
+  - DoubleConversion (1.1.6)
+  - Folly (2018.10.22.00):
+    - boost-for-react-native
+    - DoubleConversion
+    - Folly/Default (= 2018.10.22.00)
+    - glog
+  - Folly/Default (2018.10.22.00):
+    - boost-for-react-native
+    - DoubleConversion
+    - glog
+  - glog (0.3.5)
+  - RCTYouTube (2.0.1):
+    - React
+    - YoutubePlayer-in-WKWebView (~> 0.3.1)
+  - React (0.60.4):
+    - React-Core (= 0.60.4)
+    - React-DevSupport (= 0.60.4)
+    - React-RCTActionSheet (= 0.60.4)
+    - React-RCTAnimation (= 0.60.4)
+    - React-RCTBlob (= 0.60.4)
+    - React-RCTImage (= 0.60.4)
+    - React-RCTLinking (= 0.60.4)
+    - React-RCTNetwork (= 0.60.4)
+    - React-RCTSettings (= 0.60.4)
+    - React-RCTText (= 0.60.4)
+    - React-RCTVibration (= 0.60.4)
+    - React-RCTWebSocket (= 0.60.4)
+  - React-Core (0.60.4):
+    - Folly (= 2018.10.22.00)
+    - React-cxxreact (= 0.60.4)
+    - React-jsiexecutor (= 0.60.4)
+    - yoga (= 0.60.4.React)
+  - React-cxxreact (0.60.4):
+    - boost-for-react-native (= 1.63.0)
+    - DoubleConversion
+    - Folly (= 2018.10.22.00)
+    - glog
+    - React-jsinspector (= 0.60.4)
+  - React-DevSupport (0.60.4):
+    - React-Core (= 0.60.4)
+    - React-RCTWebSocket (= 0.60.4)
+  - React-fishhook (0.60.4)
+  - React-jsi (0.60.4):
+    - boost-for-react-native (= 1.63.0)
+    - DoubleConversion
+    - Folly (= 2018.10.22.00)
+    - glog
+    - React-jsi/Default (= 0.60.4)
+  - React-jsi/Default (0.60.4):
+    - boost-for-react-native (= 1.63.0)
+    - DoubleConversion
+    - Folly (= 2018.10.22.00)
+    - glog
+  - React-jsiexecutor (0.60.4):
+    - DoubleConversion
+    - Folly (= 2018.10.22.00)
+    - glog
+    - React-cxxreact (= 0.60.4)
+    - React-jsi (= 0.60.4)
+  - React-jsinspector (0.60.4)
+  - react-native-camera (3.3.3):
+    - React
+    - react-native-camera/RCT (= 3.3.3)
+    - react-native-camera/RN (= 3.3.3)
+  - react-native-camera/RCT (3.3.3):
+    - React
+  - react-native-camera/RN (3.3.3):
+    - React
+  - react-native-html-to-pdf (0.9.1):
+    - React
+  - react-native-netinfo (4.2.0):
+    - React
+  - react-native-print (0.7.0):
+    - React
+  - react-native-signature-capture (0.4.9):
+    - React
+  - react-native-video (5.0.0):
+    - React
+    - react-native-video/Video (= 5.0.0)
+  - react-native-video/Video (5.0.0):
+    - React
+  - React-RCTActionSheet (0.60.4):
+    - React-Core (= 0.60.4)
+  - React-RCTAnimation (0.60.4):
+    - React-Core (= 0.60.4)
+  - React-RCTBlob (0.60.4):
+    - React-Core (= 0.60.4)
+    - React-RCTNetwork (= 0.60.4)
+    - React-RCTWebSocket (= 0.60.4)
+  - React-RCTImage (0.60.4):
+    - React-Core (= 0.60.4)
+    - React-RCTNetwork (= 0.60.4)
+  - React-RCTLinking (0.60.4):
+    - React-Core (= 0.60.4)
+  - React-RCTNetwork (0.60.4):
+    - React-Core (= 0.60.4)
+  - React-RCTSettings (0.60.4):
+    - React-Core (= 0.60.4)
+  - React-RCTText (0.60.4):
+    - React-Core (= 0.60.4)
+  - React-RCTVibration (0.60.4):
+    - React-Core (= 0.60.4)
+  - React-RCTWebSocket (0.60.4):
+    - React-Core (= 0.60.4)
+    - React-fishhook (= 0.60.4)
+  - ReactNativeART (1.2.0):
+    - React
+  - RNCAsyncStorage (1.15.8):
+    - React-Core
+  - RNDeviceInfo (6.0.4):
+    - React-Core
+  - RNFS (2.14.1):
+    - React
+  - yoga (0.60.4.React)
+  - YoutubePlayer-in-WKWebView (0.3.3)
+
+DEPENDENCIES:
+  - DoubleConversion (from `../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`)
+  - Folly (from `../node_modules/react-native/third-party-podspecs/Folly.podspec`)
+  - glog (from `../node_modules/react-native/third-party-podspecs/glog.podspec`)
+  - RCTYouTube (from `../node_modules/react-native-youtube`)
+  - React (from `../node_modules/react-native/`)
+  - React-Core (from `../node_modules/react-native/React`)
+  - React-cxxreact (from `../node_modules/react-native/ReactCommon/cxxreact`)
+  - React-DevSupport (from `../node_modules/react-native/React`)
+  - React-fishhook (from `../node_modules/react-native/Libraries/fishhook`)
+  - React-jsi (from `../node_modules/react-native/ReactCommon/jsi`)
+  - React-jsiexecutor (from `../node_modules/react-native/ReactCommon/jsiexecutor`)
+  - React-jsinspector (from `../node_modules/react-native/ReactCommon/jsinspector`)
+  - react-native-camera (from `../node_modules/react-native-camera`)
+  - react-native-html-to-pdf (from `../node_modules/react-native-html-to-pdf`)
+  - "react-native-netinfo (from `../node_modules/@react-native-community/netinfo`)"
+  - react-native-print (from `../node_modules/react-native-print`)
+  - react-native-signature-capture (from `../lib/react-native-signature-capture`)
+  - react-native-video (from `../node_modules/react-native-video`)
+  - React-RCTActionSheet (from `../node_modules/react-native/Libraries/ActionSheetIOS`)
+  - React-RCTAnimation (from `../node_modules/react-native/Libraries/NativeAnimation`)
+  - React-RCTBlob (from `../node_modules/react-native/Libraries/Blob`)
+  - React-RCTImage (from `../node_modules/react-native/Libraries/Image`)
+  - React-RCTLinking (from `../node_modules/react-native/Libraries/LinkingIOS`)
+  - React-RCTNetwork (from `../node_modules/react-native/Libraries/Network`)
+  - React-RCTSettings (from `../node_modules/react-native/Libraries/Settings`)
+  - React-RCTText (from `../node_modules/react-native/Libraries/Text`)
+  - React-RCTVibration (from `../node_modules/react-native/Libraries/Vibration`)
+  - React-RCTWebSocket (from `../node_modules/react-native/Libraries/WebSocket`)
+  - "ReactNativeART (from `../node_modules/@react-native-community/art`)"
+  - "RNCAsyncStorage (from `../node_modules/@react-native-async-storage/async-storage`)"
+  - RNDeviceInfo (from `../node_modules/react-native-device-info`)
+  - RNFS (from `../node_modules/react-native-fs`)
+  - yoga (from `../node_modules/react-native/ReactCommon/yoga`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - boost-for-react-native
+    - YoutubePlayer-in-WKWebView
+
+EXTERNAL SOURCES:
+  DoubleConversion:
+    :podspec: "../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec"
+  Folly:
+    :podspec: "../node_modules/react-native/third-party-podspecs/Folly.podspec"
+  glog:
+    :podspec: "../node_modules/react-native/third-party-podspecs/glog.podspec"
+  RCTYouTube:
+    :path: "../node_modules/react-native-youtube"
+  React:
+    :path: "../node_modules/react-native/"
+  React-Core:
+    :path: "../node_modules/react-native/React"
+  React-cxxreact:
+    :path: "../node_modules/react-native/ReactCommon/cxxreact"
+  React-DevSupport:
+    :path: "../node_modules/react-native/React"
+  React-fishhook:
+    :path: "../node_modules/react-native/Libraries/fishhook"
+  React-jsi:
+    :path: "../node_modules/react-native/ReactCommon/jsi"
+  React-jsiexecutor:
+    :path: "../node_modules/react-native/ReactCommon/jsiexecutor"
+  React-jsinspector:
+    :path: "../node_modules/react-native/ReactCommon/jsinspector"
+  react-native-camera:
+    :path: "../node_modules/react-native-camera"
+  react-native-html-to-pdf:
+    :path: "../node_modules/react-native-html-to-pdf"
+  react-native-netinfo:
+    :path: "../node_modules/@react-native-community/netinfo"
+  react-native-print:
+    :path: "../node_modules/react-native-print"
+  react-native-signature-capture:
+    :path: "../lib/react-native-signature-capture"
+  react-native-video:
+    :path: "../node_modules/react-native-video"
+  React-RCTActionSheet:
+    :path: "../node_modules/react-native/Libraries/ActionSheetIOS"
+  React-RCTAnimation:
+    :path: "../node_modules/react-native/Libraries/NativeAnimation"
+  React-RCTBlob:
+    :path: "../node_modules/react-native/Libraries/Blob"
+  React-RCTImage:
+    :path: "../node_modules/react-native/Libraries/Image"
+  React-RCTLinking:
+    :path: "../node_modules/react-native/Libraries/LinkingIOS"
+  React-RCTNetwork:
+    :path: "../node_modules/react-native/Libraries/Network"
+  React-RCTSettings:
+    :path: "../node_modules/react-native/Libraries/Settings"
+  React-RCTText:
+    :path: "../node_modules/react-native/Libraries/Text"
+  React-RCTVibration:
+    :path: "../node_modules/react-native/Libraries/Vibration"
+  React-RCTWebSocket:
+    :path: "../node_modules/react-native/Libraries/WebSocket"
+  ReactNativeART:
+    :path: "../node_modules/@react-native-community/art"
+  RNCAsyncStorage:
+    :path: "../node_modules/@react-native-async-storage/async-storage"
+  RNDeviceInfo:
+    :path: "../node_modules/react-native-device-info"
+  RNFS:
+    :path: "../node_modules/react-native-fs"
+  yoga:
+    :path: "../node_modules/react-native/ReactCommon/yoga"
+
+SPEC CHECKSUMS:
+  boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
+  DoubleConversion: 5805e889d232975c086db112ece9ed034df7a0b2
+  Folly: 30e7936e1c45c08d884aa59369ed951a8e68cf51
+  glog: 1f3da668190260b06b429bb211bfbee5cd790c28
+  RCTYouTube: 7ff7d42f5ed42d185198681e967fd2c2b661375d
+  React: ff7ee2ae5ee1c1d9ae2183b4111045b25294bb01
+  React-Core: 8e0ea421cae5609d2562850f98421b15030476fa
+  React-cxxreact: 326880209990151a7182a813311054e9772ba510
+  React-DevSupport: e9f10e6721e78e87622fc985db695c0c0168db8a
+  React-fishhook: 1f0e5b08449403fa75c3fb3881a0beefbada14af
+  React-jsi: 21d3153b1153fbf6510a92b6b11e33e725cb7432
+  React-jsiexecutor: 7549641e48bafae7bfee3f3ea19bf4901639c5de
+  React-jsinspector: 73f24a02fa684ed6a2b828ba116874a2191ded88
+  react-native-camera: 941db9425e984fe31743e78e381a1498dbb92f5f
+  react-native-html-to-pdf: 95ffebf254a9a1e5aaacfcaf4116974096b060d8
+  react-native-netinfo: 16a1f36248b920e43bc0de383381b463002ae434
+  react-native-print: b31a7afe481fc7c27960fbd1a10055bce7146a86
+  react-native-signature-capture: 89c10d16d572bc675d6e2bab784441577acfa20a
+  react-native-video: 37a0a4628b985c080cfd7b0768457be84c8c3fd0
+  React-RCTActionSheet: 9f71d7ae3e8fb10e08d162cbf14c621349dbfab3
+  React-RCTAnimation: 981d8c95b0e30918a9832ccac32af83562a27fae
+  React-RCTBlob: 21e73d1020a302a75fed30dbaee9f15287b80baa
+  React-RCTImage: c0bc6ac0926517b6fb7e4c279b04843113e99d1d
+  React-RCTLinking: 1af3f3c59114bed3deec0107c62e7efad0932ee5
+  React-RCTNetwork: 35df9de46e19cda5c56380be1a7759b9b8cb2fcd
+  React-RCTSettings: f580504c2cd1f44e25add10fb9ed3954f67f8ac5
+  React-RCTText: e0f224898b13af9aa036ea7cb3d438daa68c1044
+  React-RCTVibration: 0bea40cd51bd089bd591a8f74c86e91fdf2666c5
+  React-RCTWebSocket: 163873f4cdd5f1058a9483443404fc3801581cb6
+  ReactNativeART: f003b07dfa7098aa419ed95b69560923440b1eee
+  RNCAsyncStorage: 0f655864a81214d1c5a9bf0faf79d86dc25c383e
+  RNDeviceInfo: 6d3fae29bb57a18fabac7d09d49aca0be0d78977
+  RNFS: a8fbe7060fa49157d819466404794ad9c58e58cf
+  yoga: c2c050f6ae6e222534760cc82f559b89214b67e2
+  YoutubePlayer-in-WKWebView: 7694e858c5c3472ed067d6fe34eb9b944845e63c
+
+PODFILE CHECKSUM: 6d06ba32087b3196fdb7a87a768d72459b30847f
+
+COCOAPODS: 1.10.1
